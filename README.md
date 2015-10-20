@@ -1,5 +1,8 @@
-## MS-MealPlanner 
+## MS-MealPlanner
 ===============
+
+# IMPORTANT
+## This is the frontend for [this node project](https://github.com/m00s/MS-MealPlanner-SERVER-)
 
 ### Features
 
@@ -8,10 +11,10 @@
 - Facebook / Twitter authentication
 
 ### Technologies
-  * AngularJS 
+  * AngularJS
   * Express 4
   * MongoDB
-  
+
 ### What's next
   - [Google Drive folder](https://drive.google.com/folderview?id=0ByM26BApEmg5RkloVUQwTEg5Z1k&usp=sharing)
 
