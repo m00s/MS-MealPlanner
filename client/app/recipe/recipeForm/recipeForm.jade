@@ -1,6 +1,6 @@
 .container
   div(growl)
-  h1 {{title}}
+  h1 {{ title }}
   .row
     .col-lg-9.center
       form.form-horizontal.recipe-form
@@ -36,9 +36,9 @@
                 input.form-control(type='text', placeholder='quantity', ng-model='ingredient.qta')
                 button.btn.btn-info(type='button', ng-click='addIngredient()', ng-disabled='!ingredient.name || !ingredient.qta') Add
             ul.list-group
-              li.list-group-item.clearfix(ng-repeat='i in recipe.ingredients') {{i.name}}
+              li.list-group-item.clearfix(ng-repeat='i in recipe.ingredients') {{ i.name }}
                 span
-                  em &nbsp; - ({{i.qta}})
+                  em &nbsp; - ({{ i.qta }})
                 span.pull-right
                   button.btn.btn-xs.btn-danger(type='button', ng-click='removeIngredient(i)')
                     span.glyphicon.glyphicon-trash
