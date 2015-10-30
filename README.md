@@ -1,8 +1,9 @@
-## MS-MealPlanner
-===============
-
 # IMPORTANT
 ## This is the frontend for [this node project](https://github.com/m00s/MS-MealPlanner-SERVER-)
+
+
+## MS-MealPlanner (CLIENT)
+------------------------
 
 ### Features
 
